@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74455702954653E00AA2410 /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744556F2954653E00AA2410 /* Final.swift */; };
 		F7BCB1252939C82C00105DD5 /* ImageAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCB1242939C82C00105DD5 /* ImageAIApp.swift */; };
 		F7BCB1272939C82C00105DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCB1262939C82C00105DD5 /* ContentView.swift */; };
 		F7BCB1292939C82E00105DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BCB1282939C82E00105DD5 /* Assets.xcassets */; };
 		F7BCB12C2939C82E00105DD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BCB12B2939C82E00105DD5 /* Preview Assets.xcassets */; };
+		F7BCB1332939D23100105DD5 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCB1322939D23100105DD5 /* Generator.swift */; };
+		F7BCB1392939D3F500105DD5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCB1382939D3F500105DD5 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F744556F2954653E00AA2410 /* Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
 		F7BCB1212939C82C00105DD5 /* ImageAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BCB1242939C82C00105DD5 /* ImageAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAIApp.swift; sourceTree = "<group>"; };
 		F7BCB1262939C82C00105DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7BCB1282939C82E00105DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7BCB12B2939C82E00105DD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7BCB1322939D23100105DD5 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		F7BCB1382939D3F500105DD5 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				F7BCB1262939C82C00105DD5 /* ContentView.swift */,
 				F7BCB1282939C82E00105DD5 /* Assets.xcassets */,
 				F7BCB12A2939C82E00105DD5 /* Preview Content */,
+				F7BCB1322939D23100105DD5 /* Generator.swift */,
+				F744556F2954653E00AA2410 /* Final.swift */,
+				F7BCB1382939D3F500105DD5 /* Image.swift */,
 			);
 			path = ImageAI;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74455702954653E00AA2410 /* Final.swift in Sources */,
+				F7BCB1392939D3F500105DD5 /* Image.swift in Sources */,
+				F7BCB1332939D23100105DD5 /* Generator.swift in Sources */,
 				F7BCB1272939C82C00105DD5 /* ContentView.swift in Sources */,
 				F7BCB1252939C82C00105DD5 /* ImageAIApp.swift in Sources */,
 			);
